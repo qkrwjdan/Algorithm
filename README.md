@@ -53,3 +53,12 @@ void bfs(int start, vector<int> graph[],bool check[]){
     }
 }
 ```
+
+## 이거 왜 이런거죠?
+```c++
+for(int i=0;i<t;i++) {
+        for (int j = 0; j < t; j++) {
+            cout<<v[i][j]<<" \n" [j == t - 1];
+        }
+    }
+```
